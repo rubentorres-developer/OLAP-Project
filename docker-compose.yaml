@@ -13,10 +13,10 @@ services:
       volumes: 
        - cloudbeaver:/opt/cloudbeaver/workspace            
 
-networks:
-  default:
-    name: test
-    external: true
+# networks:
+#   default:
+#     name: test
+#     external: true
 
 volumes:
   cloudbeaver:
